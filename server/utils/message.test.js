@@ -9,6 +9,5 @@ describe('generateMessage', () => {
         
         expect(res.createdAt).toBeA('number');
         expect(res).toInclude({from,text});
-        
     });
 });
